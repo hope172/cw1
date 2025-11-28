@@ -116,7 +116,7 @@ document.getElementById("check-weather").addEventListener("click", async () => {
   const msgRain = document.getElementById("msg-rain").value;
 
   const charName = charNameInput.value || "캐릭터";
-  const charHtml = charPreview.innerHTML || "👤";
+const charHtml = charPreview.innerHTML || "👤";
 
   try {
     // 날씨 조회(Open-Meteo)
